@@ -8,9 +8,8 @@
 .h1{
     padding: 60px;
     text-align: left;
-    background-color:black;
     font-size: 30px;
-    
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,24 +18,36 @@ nav{
     display: flex;
     justify-content: flex-end;
     background-color: cadetblue;
+
 }
 
 ul{
-    
+    list-style-type: none;
     margin-left: auto;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     padding: 20px;
+    
+    
     
 }
 
 .bgimg{
-        background-image: url(./assets/imgs/headerimg1.jpg)
-            width: 100%;
-            margin-bottom: 25px;
-            object-fit: cover;
-            background-size: cover;
-            background-position: center;
+        background-image: url(./assets/imgs/headerimgresized.jpg);
+      
         }
+        
 
 
+
+/* Tablets -  */
+@media screen and (max-width: 992px) {
+}
+/* Large smartphones  */
+@media screen and (max-width: 768px) {
+}
+/* Small smartphones -  */
+@media screen and (max-width: 576px) {
+}
 
