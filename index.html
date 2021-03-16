@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href= "./style.css">
-
     <title>My Portfolio</title>
+    <link rel= "stylesheet" href= "./assets/reset.css">
+    <link rel= "stylesheet" href= "./assets/style.css">
 
 </head>
+
 <body>
 
     <header> 
-     
-       <nav>
-                
-                <h1 class="h1">Andrew Parsons</h1>
-                
-                <ul> 
+        <header class="header">
+        <h1>Andrew Parsons</h1>
+    </header>
+        <nav>
+    
+                <ul>
+                    <div id="#ul"></div>
                     <li> <a href="#aboutme">About Me</a>
                     </li>
             
@@ -27,47 +29,66 @@
                     <li> <a href="#contactme">Contact Me</a>
                     </li>
 
-                    <li> <a href="#myresume">My Resume</a>
-                    </li>
-
+                
                 </ul>
         </nav>
-    
-    </header>    
-    
+      
 
     <main>
             <div>
-                <img src="./assets/imgs/headerimgresized.jpg" width= 1624px, height= 203px>
+                <img src="./assets/imgs/headerimgresized.jpg" width= 1460px, height= 203px, alt= "a swirly black background">
            </div> 
 
-            <section> About Me </section>
-                <section id="#aboutme"></id>
+            <section class="row"> 
+                
+                <div class="heading">
+                <h2>About Me</h2> 
+                </div>
+                
+                <div id="#aboutme"></div>
+                <div class="column">
+                
+                    <p> My name is Andrew Parsons. I am 30 years old and a recent recipent of the Coding Bootcamp certificate. I have had many previous jobs including being in the Navy, working as a delivery driver overnight, to working in door-to-door sales. I am originally from Indiana and I moved to California in 2014. I have lived south of the border in Tijuana, Mx for several years before meeting my wonderful wife and now we live together in Imperial Beach. I enjoy videogames and coding. I would love to learn how to surf but at this point the pacific ocean is way too cold for me.
+
+                </p>
+        
+                </div>
+            </section>
+    
+            <section class="row">
+                <div class="column">
+                    <div id="#mywork"></div>
+                    <div class="heading">
+                        <h3>My Work</h3>
+                    </div>
+                    
+                    <div class="column">
+                
+                        <img src="https://placehold.it/200x200" alt= "a placeholder img">
+
+                    </div>
+            </section>
             
-                <p>
-
-                </p>
-        
-        
-       
-    
-            <section>My Work</section>
-                <p>
-
-                </p>
-        
-            <section>Contact Me</section>
-                <p>
-
-                </p>
-
-            <section>My Resume</section>
-                <a href="#myresume"></a>
-                <p>
-
-                </p>
-    
-    
+            <section>
+                
+                <section class="row">
+                <div class="column">
+                
+                    <div id="#contactme"></div>
+                
+                    <div class="heading">
+                <h3>Contact Me</h3>
+                </div>
+                
+                <div class="column">
+                <p> 619-796-8418
+                    parsonsaaa@gmail.com
+                 </p>
+                 
+                </div>
+            
+            </section>
+  
     </main>
 
     <footer>
