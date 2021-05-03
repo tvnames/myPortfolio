@@ -743,6 +743,11 @@ pre code {
   order: 5;
 }
 
+#profimg {
+  height: 400px;
+  width: 200px
+}
+
 .order-6 {
   order: 6;
 }
